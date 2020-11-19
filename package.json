@@ -1,0 +1,31 @@
+{
+  "name": "nodereactssr",
+  "version": "1.0.0",
+  "description": "Node react ssr project",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test",
+    "startdev": "NODE_ENV=development nodemon .",
+    "start": "NODE_ENV=production node ."
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/cli": "^7.12.1",
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/preset-react": "^7.12.5",
+    "@babel/register": "^7.12.1",
+    "axios": "^0.21.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "ignore-styles": "^5.0.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0",
+    "serialize-javascript": "^5.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.6"
+  }
+}
